@@ -10,7 +10,7 @@ function disableAll(){
   document.querySelector(".mds-checkbox__input").disabled = true;
 
   let radioButtons = document.querySelectorAll(".mds-radio__input");
-  for (let buttons of radioButton) {
+  for (let buttons of radioButtons) {
     buttons.setAttribute("disabled", true);
   }
 }

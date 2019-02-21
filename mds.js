@@ -1,8 +1,8 @@
 window.mds = {
   textField: textField,
-  switch: empty,
-  checkbox: empty,
-  radioButton: empty,
+  switch: noop,
+  checkbox: noop,
+  radioButton: noop,
 };
 
 function textField(element) {
@@ -18,12 +18,12 @@ input.addEventListener("focus", function(e){
 
 input.addEventListener("blur", function(){
   if (input.value === "") {
-    label.classList.remove("mds-text-field__input--active");
+    label.classList.remove("mds-text-field__label--active");
     label.classList.add("mds-text-field__label");
   }
 })
 }
 
-function empty(){
+function noop(){
 
 }
