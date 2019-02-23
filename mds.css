@@ -41,29 +41,20 @@ div {
 }
 
 .mds-text-field {
-
+  margin-top: 10%;
   width: 280px;
   height: 56px;
   position: relative;
 }
 .mds-text-field__input {
-
 width: 100%;
-
 height: 100%;
-
 display: block;
-
 border-bottom: 1px solid purple;
-
 Font-family: "Roboto", sans-serif;
-
-padding-left: 12px;
-
+padding-left:12px;
 padding-right: 12px;
-
 box-sizing: border-box;
-
 background-color:rgb(221, 248, 248);
 }
 
@@ -98,7 +89,7 @@ background-color:rgb(221, 248, 248);
   color: #757575;
   font-size: 16px;
   margin-top: 0;
-  margin-left: 12;
+  margin-left: 6px;
   transition: .3s ease;
   font-family: "Roboto", sans-serif;
 }
@@ -107,8 +98,8 @@ background-color:rgb(221, 248, 248);
   position: absolute;
   color: #7f40d6;
   font-size: 12px;
-  margin-top: -50px;
-  margin-left: 13px;
+  margin-top: 0px;
+  margin-left: 12px;
   transition: .3s ease;
 }
 .mds-text-field__input:disabled {
