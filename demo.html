@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"/>
-    <script src="mds.js" defer></script>
+    <script src="mds.js"></script>
     <script src="script.js" defer></script>
     <link rel="stylesheet" type="text/css" href="mds.css">
   </head>
@@ -49,5 +49,9 @@
     </div>
     </main>
 
+    <script>
+      let text = document.querySelector(".mds-text-field");
+      mds.textField(text);
+    </script>
   </body>
 </html>

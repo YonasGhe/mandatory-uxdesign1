@@ -41,7 +41,7 @@ div {
 }
 
 .mds-text-field {
-  margin-top: 30%;
+
   width: 280px;
   height: 56px;
   position: relative;
@@ -87,7 +87,7 @@ background-color:rgb(221, 248, 248);
   transform: scale(0, 1);
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  width: 281px;
+  width: 280px;
   z-index: 1;
   position: absolute;
   margin-top: -2px;
