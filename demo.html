@@ -8,12 +8,12 @@
     <link rel="stylesheet" type="text/css" href="mds.css">
   </head>
   <body>
-    <main>
+    <div class="main">
     <head>
       <h3>Textspace</h3>
     </head>
 
-    <div>
+    <nav>
       <div class="mds-text-field">
         <input class="mds-text-field__input" type="text">
         <div class="mds-text-field__input--underline"></div>
@@ -46,12 +46,12 @@
         <button id="disableButton">Disable</button>
         <button id="enableButton">Enable</button>
       </div>
-    </div>
-    </main>
+    </nav>
 
     <script>
       let text = document.querySelector(".mds-text-field");
       mds.textField(text);
     </script>
+
   </body>
 </html>
